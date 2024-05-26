@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2024-04-15 12:15:36.288936",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2024-04-15 12:15:36.288936",
+ "modified_by": "Administrator",
+ "module": "CRM",
+ "name": "customers-near-me",
+ "owner": "Administrator",
+ "page_name": "customers-near-me",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Customers near me"
+}

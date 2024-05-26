@@ -1,0 +1,32 @@
+{
+ "attach_print": 0,
+ "channel": "WhatsApp",
+ "condition": "doc.status==\"Open\"",
+ "creation": "2024-04-29 12:20:26.478980",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Whatsapp chat",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "{{doc.message}}\n\n-inTEUtion\n",
+ "message_type": "Plain Text",
+ "modified": "2024-04-29 13:02:03.549361",
+ "modified_by": "Administrator",
+ "module": "Communication",
+ "name": "WhatsApp notification",
+ "owner": "Administrator",
+ "property_value": "Sent",
+ "recipients": [
+  {
+   "receiver_by_document_field": "to",
+   "receiver_by_role": ""
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "set_property_after_alert": "status",
+ "twilio_number": "whatsapp"
+}

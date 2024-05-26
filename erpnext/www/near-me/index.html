@@ -1,0 +1,51 @@
+{% extends "templates/web.html" %} {% block content %}
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Leaflet Map Example</title>
+		<!-- Include Leaflet CSS -->
+		<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet-easybutton@2/src/easy-button.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+		/>
+
+		<!-- Include custom CSS -->
+		<style>
+			#map {
+				height: 90vh;
+				width: 100%;
+			}
+			.search_input {
+				border: solid 1px #0032fa;
+				border-radius: 5px;
+				min-height: 24px;
+			}
+			.location_search_button {
+				border: none;
+				background-color: blue;
+				color: white;
+				padding-top: 3px;
+				padding-bottom: 3px;
+				border-radius: 5px;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="map"></div>
+		<div id="search" style="margin: 5px;">
+			<input type="text" id="search-box" class="search_input" placeholder="Search for places" />
+			<button id="search-button" class="location_search_button">Search</button>
+		</div>
+		<!-- Include Leaflet JavaScript -->
+		<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+		<!-- Include custom JavaScript -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>
+
+{%- endblock -%}

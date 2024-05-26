@@ -1,0 +1,94 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "naming_series:",
+ "creation": "2024-04-29 12:01:38.970027",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "chat_section",
+  "to",
+  "message",
+  "column_break_hgje",
+  "naming_series",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "chat_section",
+   "fieldtype": "Section Break",
+   "label": "Chat"
+  },
+  {
+   "fieldname": "to",
+   "fieldtype": "Data",
+   "label": "To",
+   "options": "Phone"
+  },
+  {
+   "fieldname": "message",
+   "fieldtype": "Small Text",
+   "label": "Message"
+  },
+  {
+   "fieldname": "column_break_hgje",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "naming_series",
+   "fieldtype": "Select",
+   "label": "Series",
+   "options": "WA-.YYYY.-.MM.-.DD."
+  },
+  {
+   "default": "Open",
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "hidden": 1,
+   "label": "Status"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-04-30 00:06:20.571106",
+ "modified_by": "Administrator",
+ "module": "Communication",
+ "name": "Whatsapp chat",
+ "naming_rule": "By \"Naming Series\" field",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [
+  {
+   "color": "Light Blue",
+   "title": "Sent"
+  },
+  {
+   "color": "Blue",
+   "title": "Delivered"
+  },
+  {
+   "color": "Green",
+   "title": "Read"
+  },
+  {
+   "color": "Red",
+   "title": "Failed"
+  }
+ ],
+ "title_field": "to"
+}
