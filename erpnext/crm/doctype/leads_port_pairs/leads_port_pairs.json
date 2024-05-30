@@ -23,26 +23,22 @@
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Pol",
-   "no_copy": 1,
    "options": "Port",
-   "reqd": 1,
-   "unique": 1
+   "reqd": 1
   },
   {
    "fieldname": "pod",
    "fieldtype": "Link",
    "in_list_view": 1,
    "label": "Pod",
-   "no_copy": 1,
    "options": "Port",
-   "reqd": 1,
-   "unique": 1
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-05-24 16:42:22.516657",
+ "modified": "2024-05-29 16:06:12.249586",
  "modified_by": "Administrator",
  "module": "CRM",
  "name": "Leads Port Pairs",
