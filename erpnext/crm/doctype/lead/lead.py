@@ -534,3 +534,10 @@ def add_lead_to_prospect(lead, prospect):
 		title=_("Lead -> Prospect"),
 		indicator="green",
 	)
+
+
+@frappe.whitelist()
+def custom_sync_action():
+    # Implement your server-side logic here
+    frappe.msgprint(_('Custom sync action executed'))
+    return {"message": "Sync successful"}

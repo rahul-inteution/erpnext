@@ -17,6 +17,12 @@
   "lft",
   "rgt",
   "old_parent",
+  "geography_section",
+  "granularity",
+  "country",
+  "column_break_mbsa",
+  "countries",
+  "states__cities",
   "target_details_section_break",
   "targets"
  ],
@@ -117,17 +123,49 @@
    "oldfieldname": "target_details",
    "oldfieldtype": "Table",
    "options": "Target Detail"
+  },
+  {
+   "fieldname": "geography_section",
+   "fieldtype": "Section Break",
+   "label": "Geography"
+  },
+  {
+   "fieldname": "granularity",
+   "fieldtype": "Select",
+   "label": "Granularity",
+   "options": "Country\nState"
+  },
+  {
+   "fieldname": "country",
+   "fieldtype": "Link",
+   "label": "Country",
+   "options": "Country"
+  },
+  {
+   "fieldname": "column_break_mbsa",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "countries",
+   "fieldtype": "Table MultiSelect",
+   "label": "Countries",
+   "options": "Sector-country mapping"
+  },
+  {
+   "fieldname": "states__cities",
+   "fieldtype": "Table MultiSelect",
+   "label": "States / Cities",
+   "options": "Sector-state mapping"
   }
  ],
  "icon": "fa fa-map-marker",
  "idx": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2022-12-24 11:16:39.964956",
+ "modified": "2024-06-04 12:42:38.770027",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "Territory",
- "name_case": "Title Case",
  "naming_rule": "By fieldname",
  "nsm_parent_field": "parent_territory",
  "owner": "Administrator",
@@ -142,7 +180,6 @@
    "read": 1,
    "report": 1,
    "role": "Sales Master Manager",
-   "set_user_permissions": 1,
    "share": 1,
    "write": 1
   },

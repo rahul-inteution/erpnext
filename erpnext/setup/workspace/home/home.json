@@ -5,7 +5,7 @@
    "label": "Incoming Leads"
   }
  ],
- "content": "[{\"id\":\"kb3XPLg8lb\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"eG1ChAvtkL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leads near-me\",\"col\":3}},{\"id\":\"VDjQpdV38u\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"My calender\",\"col\":3}},{\"id\":\"TOnDpbDNW_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Event\",\"col\":3}},{\"id\":\"HBxuXMTn7m\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Business Cards\",\"col\":3}},{\"id\":\"w8X-EoDAWA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"-smjdUyCxO\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Incoming Leads\",\"col\":12}},{\"id\":\"SHJKakmLLf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lead\",\"col\":3}},{\"id\":\"nWd2KJPW8l\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Opportunity\",\"col\":3}},{\"id\":\"CPxEyhaf3G\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quotation\",\"col\":3}},{\"id\":\"snrzfbFr5Y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":3}},{\"id\":\"xFtJEr850D\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"lPUGH3nKOu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Campaign\",\"col\":3}},{\"id\":\"gX6nmyJCNm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Email Campaign\",\"col\":3}},{\"id\":\"Q2HTD5ry5p\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Newsletter\",\"col\":3}},{\"id\":\"d_KVM1gsf9\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"WU4F-HUcIQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leaderboard\",\"col\":3}},{\"id\":\"BnGKLq_pZz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CRM Dashboard\",\"col\":3}},{\"id\":\"4KC7vp5_Yp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Funnel\",\"col\":3}}]",
+ "content": "[{\"id\":\"kb3XPLg8lb\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Quick Links</b></span>\",\"col\":12}},{\"id\":\"eG1ChAvtkL\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leads near-me\",\"col\":3}},{\"id\":\"VDjQpdV38u\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"My calender\",\"col\":3}},{\"id\":\"TOnDpbDNW_\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Event\",\"col\":3}},{\"id\":\"HBxuXMTn7m\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Business Cards\",\"col\":3}},{\"id\":\"w8X-EoDAWA\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"-smjdUyCxO\",\"type\":\"chart\",\"data\":{\"chart_name\":\"Incoming Leads\",\"col\":12}},{\"id\":\"SHJKakmLLf\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Lead\",\"col\":3}},{\"id\":\"nWd2KJPW8l\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Opportunity\",\"col\":3}},{\"id\":\"CPxEyhaf3G\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Quotation\",\"col\":3}},{\"id\":\"snrzfbFr5Y\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":3}},{\"id\":\"xFtJEr850D\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"lPUGH3nKOu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Campaign\",\"col\":3}},{\"id\":\"gX6nmyJCNm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Email Campaign\",\"col\":3}},{\"id\":\"Q2HTD5ry5p\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Newsletter\",\"col\":3}},{\"id\":\"K-tTX9Fw5a\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"0vu6kbIRXD\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Email Group\",\"col\":3}},{\"id\":\"H92Y20jH-Z\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Email Response\",\"col\":3}},{\"id\":\"d_KVM1gsf9\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"WU4F-HUcIQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leaderboard\",\"col\":3}},{\"id\":\"BnGKLq_pZz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"CRM Dashboard\",\"col\":3}},{\"id\":\"4KC7vp5_Yp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Funnel\",\"col\":3}}]",
  "creation": "2020-01-23 13:46:38.833076",
  "custom_blocks": [],
  "docstatus": 0,
@@ -206,7 +206,7 @@
    "type": "Link"
   }
  ],
- "modified": "2024-05-22 14:36:32.402082",
+ "modified": "2024-06-02 21:08:01.207989",
  "modified_by": "Administrator",
  "module": "Setup",
  "name": "Home",
@@ -254,11 +254,28 @@
    "type": "DocType"
   },
   {
+   "color": "Green",
+   "doc_view": "List",
+   "label": "Email Group",
+   "link_to": "Email Group",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
    "color": "Grey",
    "doc_view": "List",
    "label": "Leaderboard",
    "link_to": "leaderboard",
    "type": "Page"
+  },
+  {
+   "color": "Green",
+   "doc_view": "List",
+   "format": "{} Unread",
+   "label": "Email Response",
+   "link_to": "Email Read Response",
+   "stats_filter": "[[\"Email Read Response\",\"status\",\"=\",\"Unread\",false]]",
+   "type": "DocType"
   },
   {
    "color": "Cyan",
